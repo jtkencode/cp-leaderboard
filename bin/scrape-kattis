@@ -1,0 +1,52 @@
+#!/usr/bin/env python
+# pylint: disable=invalid-name
+
+"""This script scrapes Polban Kattis leaderboard and outputs a JSON array
+containing the parsed data."""
+
+import json
+import requests
+from bs4 import BeautifulSoup
+
+
+URL = "https://open.kattis.com/universities/polban.ac.id"
+
+
+def get_username(cell):
+    """get_username takes a BeautifulSoup object containing a <td> cell from
+    Kattis leaderboard and outputs the parsed username from the <a> tag."""
+    raw = cell.find("a").get("href").strip()
+    assert raw[:7] == "/users/"
+
+    return raw[7:]
+
+
+result = []
+
+headers = {
+    "User-Agent": "cp-leaderboard (https://github.com/jtkencode/cp-leaderboard)"
+}
+
+req = requests.get(URL, headers)
+
+soup = BeautifulSoup(req.content, "html.parser")
+leaderboard_rows = soup.select(".table-kattis tbody tr")
+assert len(leaderboard_rows) > 0
+
+for row in leaderboard_rows:
+    columns = row.find_all("td")
+    assert len(columns) == 4
+
+    entry = {
+        "polban_rank": columns[0].get_text().strip(),
+        "username": get_username(columns[1]),
+        "name": columns[1].find("a").get_text().strip(),
+        "score": float(columns[3].get_text().strip())
+    }
+
+    result.append(entry)
+
+# Make the result stable by sorting it based on username as it cannot be changed
+result = sorted(result, key=lambda item: item["username"])
+
+print(json.dumps(result, indent=4, sort_keys=True))
