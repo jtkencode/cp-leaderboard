@@ -38,7 +38,7 @@ for row in leaderboard_rows:
     assert len(columns) == 4
 
     entry = {
-        "polban_rank": columns[0].get_text().strip(),
+        "polban_rank": int(columns[0].get_text().strip()),
         "username": get_username(columns[1]),
         "name": columns[1].find("a").get_text().strip(),
         "score": float(columns[3].get_text().strip())
