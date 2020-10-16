@@ -1,0 +1,50 @@
+[
+    {
+        "active": true,
+        "global_rank": 72198,
+        "participations": 17,
+        "polban_rank": 3,
+        "rating": 942,
+        "username": "Nexain"
+    },
+    {
+        "active": false,
+        "global_rank": null,
+        "participations": 2,
+        "polban_rank": null,
+        "rating": 1302,
+        "username": "fgarnadi"
+    },
+    {
+        "active": false,
+        "global_rank": null,
+        "participations": 4,
+        "polban_rank": null,
+        "rating": 1138,
+        "username": "littletime"
+    },
+    {
+        "active": true,
+        "global_rank": 10437,
+        "participations": 168,
+        "polban_rank": 1,
+        "rating": 1723,
+        "username": "mini4141"
+    },
+    {
+        "active": false,
+        "global_rank": null,
+        "participations": 1,
+        "polban_rank": null,
+        "rating": 1410,
+        "username": "saifulwebid"
+    },
+    {
+        "active": true,
+        "global_rank": 13785,
+        "participations": 121,
+        "polban_rank": 2,
+        "rating": 1642,
+        "username": "x_zadfar"
+    }
+]
