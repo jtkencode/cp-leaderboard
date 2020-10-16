@@ -24,6 +24,7 @@ jobs:
         pip install -r requirements.txt
     - run: |
         bin/scrape-kattis > data/kattis.json
+        bin/scrape-codeforces > data/codeforces.json
     - run: |
         git config user.name "Leaderboard scraper"
         git config user.email "encode@jtk.polban.ac.id"
