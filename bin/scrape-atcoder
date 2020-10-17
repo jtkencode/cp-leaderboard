@@ -51,7 +51,7 @@ assert len(leaderboard_rows) > 0
 
 for row in leaderboard_rows:
     columns = row.find_all("td")
-    # assert len(columns) == 7
+    assert len(columns) == 7
 
     entry = {
         "polban_rank": get_polban_rank(columns[0]),
