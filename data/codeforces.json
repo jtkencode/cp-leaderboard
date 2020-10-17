@@ -1,7 +1,7 @@
 [
     {
         "active": true,
-        "global_rank": 68532,
+        "global_rank": 68243,
         "participations": 17,
         "polban_rank": 3,
         "rating": 942,
@@ -25,10 +25,10 @@
     },
     {
         "active": true,
-        "global_rank": 10013,
-        "participations": 168,
+        "global_rank": 9827,
+        "participations": 167,
         "polban_rank": 1,
-        "rating": 1723,
+        "rating": 1728,
         "username": "mini4141"
     },
     {
@@ -41,10 +41,10 @@
     },
     {
         "active": true,
-        "global_rank": 13132,
-        "participations": 121,
+        "global_rank": 10243,
+        "participations": 120,
         "polban_rank": 2,
-        "rating": 1643,
+        "rating": 1716,
         "username": "x_zadfar"
     }
 ]
