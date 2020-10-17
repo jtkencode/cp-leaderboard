@@ -1,0 +1,42 @@
+[
+    {
+        "birth": 1999,
+        "global_rank": 56807,
+        "highest": 6,
+        "match": 2,
+        "polban_rank": 4,
+        "rating": 6,
+        "username": "ivanetra",
+        "win": 0
+    },
+    {
+        "birth": 2000,
+        "global_rank": 44986,
+        "highest": 38,
+        "match": 2,
+        "polban_rank": 3,
+        "rating": 38,
+        "username": "littletime",
+        "win": 0
+    },
+    {
+        "birth": 1999,
+        "global_rank": 4948,
+        "highest": 1343,
+        "match": 46,
+        "polban_rank": 1,
+        "rating": 1317,
+        "username": "mini4141",
+        "win": 0
+    },
+    {
+        "birth": 1998,
+        "global_rank": 5681,
+        "highest": 1243,
+        "match": 27,
+        "polban_rank": 2,
+        "rating": 1243,
+        "username": "x_zadfar",
+        "win": 0
+    }
+]
