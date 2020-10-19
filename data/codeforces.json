@@ -1,7 +1,7 @@
 [
     {
         "active": true,
-        "global_rank": 69360,
+        "global_rank": 68984,
         "participations": 17,
         "polban_rank": 3,
         "rating": 942,
@@ -25,7 +25,7 @@
     },
     {
         "active": true,
-        "global_rank": 10107,
+        "global_rank": 10056,
         "participations": 168,
         "polban_rank": 1,
         "rating": 1723,
@@ -41,10 +41,10 @@
     },
     {
         "active": true,
-        "global_rank": 10319,
-        "participations": 122,
+        "global_rank": 13178,
+        "participations": 121,
         "polban_rank": 2,
-        "rating": 1717,
+        "rating": 1643,
         "username": "x_zadfar"
     }
 ]
