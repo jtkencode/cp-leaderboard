@@ -30,19 +30,6 @@ def get_polban_rank(cell):
 
     return int(res[0])
 
-def get_global_rank(cell):
-    """get_global_rank takes a BeautifulSoup object containing a <td> cell from
-    Codeforces leaderboard and returns the user's rank across Codeforces
-    users."""
-    if not is_active(cell):
-        return None
-
-    res = findall(r'\d+', cell.get_text().strip())
-    assert len(res) == 2
-
-    return int(res[1])
-
-
 result = []
 
 headers = {
@@ -71,7 +58,6 @@ for i in range(0, len(columns), 4):
     entry = {
         "active": is_active(columns[i]),
         "polban_rank": get_polban_rank(columns[i]),
-        "global_rank": get_global_rank(columns[i]),
         "username": columns[i + 1].get_text().strip(),
         "participations": int(columns[i + 2].get_text().strip()),
         "rating": int(columns[i + 3].get_text().strip())
