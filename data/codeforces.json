@@ -1,7 +1,6 @@
 [
     {
         "active": true,
-        "global_rank": 69360,
         "participations": 17,
         "polban_rank": 3,
         "rating": 942,
@@ -9,7 +8,6 @@
     },
     {
         "active": false,
-        "global_rank": null,
         "participations": 2,
         "polban_rank": null,
         "rating": 1302,
@@ -17,7 +15,6 @@
     },
     {
         "active": false,
-        "global_rank": null,
         "participations": 4,
         "polban_rank": null,
         "rating": 1138,
@@ -25,7 +22,6 @@
     },
     {
         "active": true,
-        "global_rank": 10107,
         "participations": 168,
         "polban_rank": 1,
         "rating": 1723,
@@ -33,7 +29,6 @@
     },
     {
         "active": false,
-        "global_rank": null,
         "participations": 1,
         "polban_rank": null,
         "rating": 1410,
@@ -41,7 +36,6 @@
     },
     {
         "active": true,
-        "global_rank": 10319,
         "participations": 122,
         "polban_rank": 2,
         "rating": 1717,

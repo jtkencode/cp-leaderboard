@@ -28,15 +28,6 @@ def get_polban_rank(cell):
 
     return int(res[0])
 
-def get_global_rank(cell):
-    """get_global_rank takes a BeautifulSoup object containing a <td> cell from
-    Atcoder leaderboard and returns the user's rank across Atcoder
-    users."""
-    res = findall(r'\d+', cell.get_text().strip())
-    assert len(res) == 2
-
-    return int(res[1])
-
 result = []
 
 headers = {
@@ -55,7 +46,6 @@ for row in leaderboard_rows:
 
     entry = {
         "polban_rank": get_polban_rank(columns[0]),
-        "global_rank": get_global_rank(columns[0]),
         "username": get_username(columns[1]),
         "birth": int(columns[2].get_text().strip()),
         "rating": int(columns[3].get_text().strip()),
