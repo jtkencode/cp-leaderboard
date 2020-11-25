@@ -1,8 +1,8 @@
 [
     {
-        "active": true,
+        "active": false,
         "participations": 17,
-        "polban_rank": 3,
+        "polban_rank": null,
         "rating": 942,
         "username": "Nexain"
     },
@@ -22,9 +22,9 @@
     },
     {
         "active": true,
-        "participations": 171,
-        "polban_rank": 2,
-        "rating": 1581,
+        "participations": 170,
+        "polban_rank": 1,
+        "rating": 1626,
         "username": "mini4141"
     },
     {
@@ -36,9 +36,9 @@
     },
     {
         "active": true,
-        "participations": 128,
-        "polban_rank": 1,
-        "rating": 1609,
+        "participations": 127,
+        "polban_rank": 2,
+        "rating": 1528,
         "username": "x_zadfar"
     }
 ]
