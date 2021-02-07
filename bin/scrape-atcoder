@@ -24,7 +24,7 @@ def get_polban_rank(cell):
     """get_polban_rank takes a BeautifulSoup object containing a <td> cell from
     Atcoder leaderboard and returns the user's rank across Polban users."""
     res =  findall(r'\d+', cell.get_text().strip())
-    assert len(res) == 2
+    assert len(res) >= 1
 
     return int(res[0])
 
