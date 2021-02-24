@@ -1,0 +1,20 @@
+[
+  {
+    "id": "0b836e74-1034-47dc-9a72-f3c5c2731f80",
+    "name": "Irsyad Farhan Ramadhan",
+    "batch": "2016",
+    "graduated": true
+  },
+  {
+    "id": "4e6b6553-eb32-48ef-9b6d-dbc3b3702edb",
+    "name": "Annazar Darul Ismawan",
+    "batch": "2017",
+    "graduated": false
+  },
+  {
+    "id": "de51921c-241e-4fb3-a8d7-cf44038c0e52",
+    "name": "M Alvie Irvansyah",
+    "batch": "2017",
+    "graduated": false
+  }
+]
