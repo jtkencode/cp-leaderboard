@@ -1,0 +1,40 @@
+[
+  {
+    "name": "ACM-ICPC Ideafuse 2019",
+    "place": "STMIK Mikroskill Medan, Sumatra Utara",
+    "year": 2019,
+    "links": [
+      "https://icpc.global/regionals/finder/Indonesia-IDEAFUSE-Multi-Provincial-2019"
+    ],
+    "stages": [
+      {
+        "level": 1,
+        "name": "Prelim"
+      },
+      {
+        "level": 2,
+        "name": "Semi"
+      },
+      {
+        "level": 3,
+        "name": "Finals"
+      }
+    ],
+    "participants": [
+      {
+        "name": "LetkolMuntu",
+        "members": [
+          "0b836e74-1034-47dc-9a72-f3c5c2731f80",
+          "4e6b6553-eb32-48ef-9b6d-dbc3b3702edb",
+          "de51921c-241e-4fb3-a8d7-cf44038c0e52"
+        ],
+        "results": [
+          {
+            "level": 3,
+            "position": "4th"
+          }
+        ]
+      }
+    ]
+  }
+]
