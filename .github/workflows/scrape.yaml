@@ -24,7 +24,6 @@ jobs:
         pip install -r requirements.txt
     - run: |
         bin/scrape-kattis > data/kattis.json
-        bin/scrape-codeforces > data/codeforces.json
         bin/scrape-atcoder > data/atcoder.json
     - run: |
         git config user.name "Leaderboard scraper"
