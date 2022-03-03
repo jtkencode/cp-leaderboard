@@ -22,9 +22,7 @@ jobs:
     - run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-    - run: |
-        bin/scrape-kattis > data/kattis.json
-        bin/scrape-atcoder > data/atcoder.json
+    - run: bin/scrape-kattis > data/kattis.json
     - run: |
         git config user.name "Leaderboard scraper"
         git config user.email "encode@jtk.polban.ac.id"
