@@ -30,18 +30,18 @@ headers = {
 req = requests.get(URL, headers)
 
 soup = BeautifulSoup(req.content, "html.parser")
-leaderboard_rows = soup.select(".table-kattis tbody tr")
+leaderboard_rows = soup.select("#top_users tbody tr")
 assert len(leaderboard_rows) > 0
 
 for row in leaderboard_rows:
     columns = row.find_all("td")
-    assert len(columns) == 4
+    assert len(columns) == 5
 
     entry = {
         "polban_rank": int(columns[0].get_text().strip()),
         "username": get_username(columns[1]),
         "name": columns[1].find("a").get_text().strip(),
-        "score": float(columns[3].get_text().strip())
+        "score": float(columns[4].get_text().strip())
     }
 
     result.append(entry)
