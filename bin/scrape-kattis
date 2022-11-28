@@ -27,7 +27,7 @@ headers = {
     "User-Agent": "cp-leaderboard (https://github.com/jtkencode/cp-leaderboard)"
 }
 
-req = requests.get(URL, headers)
+req = requests.get(URL, headers, timeout=10)
 
 soup = BeautifulSoup(req.content, "html.parser")
 leaderboard_rows = soup.select("#top_users tbody tr")
