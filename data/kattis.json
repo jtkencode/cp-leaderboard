@@ -19,31 +19,31 @@
     },
     {
         "name": "Alif Ramdani",
-        "polban_rank": 18,
+        "polban_rank": 19,
         "score": 1.0,
         "username": "alramdein"
     },
     {
         "name": "Annazar Darul",
-        "polban_rank": 14,
+        "polban_rank": 15,
         "score": 6.3,
         "username": "annazar-darul"
     },
     {
         "name": "Yahya Alfon Sinaga",
-        "polban_rank": 16,
+        "polban_rank": 17,
         "score": 2.1,
         "username": "codeyzx"
     },
     {
         "name": "Dafi Majid Fadhlih",
-        "polban_rank": 18,
+        "polban_rank": 19,
         "score": 1.0,
         "username": "d3-dafi-majid-fadhlih--"
     },
     {
         "name": "Fadly Triansyah Rahman",
-        "polban_rank": 18,
+        "polban_rank": 19,
         "score": 1.0,
         "username": "fadlytr"
     },
@@ -67,7 +67,7 @@
     },
     {
         "name": "Maulana Kahfi",
-        "polban_rank": 16,
+        "polban_rank": 17,
         "score": 2.1,
         "username": "maulana-kahfi"
     },
@@ -79,7 +79,7 @@
     },
     {
         "name": "Muhamad Alvie Irvansyah",
-        "polban_rank": 15,
+        "polban_rank": 16,
         "score": 4.3,
         "username": "muhamad-alvie-irvansyah"
     },
@@ -97,7 +97,7 @@
     },
     {
         "name": "Rio Agasta",
-        "polban_rank": 18,
+        "polban_rank": 19,
         "score": 1.0,
         "username": "rio-agasta"
     },
@@ -115,7 +115,7 @@
     },
     {
         "name": "Umar Faruq Robbany",
-        "polban_rank": 13,
+        "polban_rank": 14,
         "score": 10.3,
         "username": "umar-faruq-robbany"
     },
@@ -124,5 +124,11 @@
         "polban_rank": 3,
         "score": 98.7,
         "username": "xzadfar"
+    },
+    {
+        "name": "Yobel D.",
+        "polban_rank": 13,
+        "score": 11.5,
+        "username": "yobel-d-"
     }
 ]
