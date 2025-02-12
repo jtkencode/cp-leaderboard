@@ -9,7 +9,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-URL = "https://open.kattis.com/universities/polban.ac.id"
+URL = "https://open.kattis.com/affiliation/polban.ac.id"
 
 
 def get_username(cell):
