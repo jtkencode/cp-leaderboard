@@ -1,18 +1,9 @@
 [
     {
-        "birth": 1999,
-        "highest": 6,
-        "match": 2,
-        "polban_rank": 3,
-        "rating": 6,
-        "username": "ivanetra",
-        "win": 0
-    },
-    {
         "birth": 2000,
         "highest": 38,
         "match": 2,
-        "polban_rank": 3,
+        "polban_rank": 1,
         "rating": 38,
         "username": "littletime",
         "win": 0
@@ -20,9 +11,9 @@
     {
         "birth": 1999,
         "highest": 1343,
-        "match": 51,
-        "polban_rank": 2,
-        "rating": 1214,
+        "match": 52,
+        "polban_rank": 1,
+        "rating": 1119,
         "username": "mini4141",
         "win": 0
     },
