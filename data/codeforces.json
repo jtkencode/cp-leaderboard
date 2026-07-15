@@ -28,10 +28,10 @@
         "username": "fgarnadi"
     },
     {
-        "active": false,
-        "participations": 7,
-        "polban_rank": null,
-        "rating": 888,
+        "active": true,
+        "participations": 8,
+        "polban_rank": 1,
+        "rating": 853,
         "username": "ikhsan3adi"
     },
     {
